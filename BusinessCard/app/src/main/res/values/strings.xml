@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name_text">Irene Ferrando Terradez</string>
+    <string name="job_text">Software Engineer</string>
+    <string name="phone_text">+34 666 666 666</string>
+    <string name="email_text">ireneterra20@gmail.com</string>
+    <string name="rrss_text">ireneferrando</string>
+</resources>
