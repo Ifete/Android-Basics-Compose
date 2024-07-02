@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Art Space App</string>
+    <string name="photo_1_description">Pride and Prejudice</string>
+    <string name="photo_1_author">Jonh Doe</string>
+    <string name="photo_1_year"> (2017)</string>
+    <string name="photo_2_description">The Great Gatsby</string>
+    <string name="photo_2_author">Jane Doe</string>
+    <string name="photo_2_year"> (2018)</string>
+    <string name="photo_3_description">The Catcher in the Rye</string>
+    <string name="photo_3_author">Alice Doe</string>
+    <string name="photo_3_year"> (2019)</string>
+</resources>
