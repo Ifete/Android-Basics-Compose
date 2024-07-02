@@ -71,6 +71,7 @@ fun TipTimeLayout(modifier: Modifier = Modifier) {
     val tipPercent = tipInput.toDoubleOrNull() ?: 0.0
 
     val tip = calculateTip(amount, tipPercent, roundUp)
+    var totalAmount = tip.toDoubleOrNull()?.plus(amount.toDouble()).toString() ?: "0.0"
 
     Column(
         modifier = Modifier
@@ -118,6 +119,11 @@ fun TipTimeLayout(modifier: Modifier = Modifier) {
         )
         Text(
             text = stringResource(R.string.tip_amount, tip),
+            style = MaterialTheme.typography.displaySmall
+        )
+        Spacer(modifier = Modifier.height(30.dp))
+        Text(
+            text = stringResource(R.string.total_amount, totalAmount),
             style = MaterialTheme.typography.displaySmall
         )
         Spacer(modifier = Modifier.height(150.dp))
