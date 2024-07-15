@@ -1,9 +1,11 @@
 <resources>
+    <string name="app_name">Course App</string>
     <string name="architecture">Architecture</string>
     <string name="crafts">Crafts</string>
     <string name="business">Business</string>
     <string name="culinary">Culinary</string>
     <string name="design">Design</string>
+    <string name="biology">Biology</string>
     <string name="fashion">Fashion</string>
     <string name="film">Film</string>
     <string name="gaming">Gaming</string>
